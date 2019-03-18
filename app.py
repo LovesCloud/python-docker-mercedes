@@ -1,7 +1,8 @@
 from flask import Flask
 from flask import Flask, flash, redirect, render_template, request, session, abort
 import os
- 
+
+
 #app = Flask(__name__)
 app = Flask(__name__, static_url_path='/static')
 
